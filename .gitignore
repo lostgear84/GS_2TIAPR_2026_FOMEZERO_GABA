@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+infra.env
+includesecrets.h
+*.log
+venv/
+.venv/
+dist/
+build/
+.DS_Store

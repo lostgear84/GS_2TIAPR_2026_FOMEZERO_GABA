@@ -1,0 +1,20 @@
+FOMEZERO
+Global Solution 2026.2
+Disciplina: Front End & Mobile Development
+Turma: 2TIAPR-2026
+
+Integrantes:
+Erick Miguel — RM 564896
+Leonardo Melo — RM 567097
+Luna Oliveira — RM 564215
+
+Repositório GitHub:
+https://github.com/lostgear84/FomeZero_FrontEnd
+
+Branch:
+master
+
+O repositório contém o código-fonte do frontend, README,
+registro de validação, capturas e roteiro da apresentação.
+
+As instruções de instalação e execução estão no README.
