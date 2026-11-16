@@ -1,24 +1,26 @@
-# Dashboard de Governança e Impacto
+# FOMEZERO — Global Solution 2026.2
 
-O dashboard é uma proposta extra do FOMEZERO. Ele complementa a demonstração da integração, mas não substitui o vídeo, o repositório GitHub ou o documento ABNT/FIAP.
+Plataforma CitizenTech para conectar doadores e beneficiários, apoiando o aproveitamento de alimentos e a rastreabilidade dos lotes de doação.
 
-## Indicadores previstos
+## Estrutura do repositório
 
-- Lotes cadastrados, entregues, processados, em revisão humana e com falha.
-- Massa recebida validada, em kg.
-- CO₂ evitado estimado, em kg CO₂eq.
-- Pontos acumulados por doador.
-- Selo Verde ESG: Bronze, Prata e Ouro.
-- Ranking ESG dos parceiros.
-- Lotes monitorados e lotes com alerta térmico.
-- Percentual de lotes em revisão humana.
-- Aviso de que os dados são sintéticos e exigem validação humana.
+- `iot/`: módulo de Internet das Coisas, ESP32, MQTT, Node-RED, InfluxDB e Grafana.
+- `cqia/`: análise de roteamento das coletas e computação quântica.
+- `femd/`: front-end do FOMEZERO, com áreas do doador e do beneficiário, registro de entrega, assistente GENAI e painel de recompensas.
+- `genai/`: assistente generativo com RAG para dúvidas de doadores.
+- `aipa/`: automação de processos, validação de entregas, pontos, Selo Verde ESG e Termo de Doação.
+- `pln/`: corpus e processamento de linguagem natural.
+- `ccns/`: simulação de memristor no Falstad.
+- `vcia/`: visão computacional para apoio à triagem de alimentos.
+- `governanca/`: governança, LGPD, riscos, indicadores, dashboard e matriz de integração.
 
-## Fonte dos indicadores
+## Entregáveis
 
-Os indicadores devem ser alimentados pelos arquivos gerados pela AIPA:
+- Vídeo no YouTube, publicado como “Não Listado”.
+- Documento ABNT/FIAP em `documento/`.
+- Dashboard de governança em `governanca/`.
+- Códigos finais e evidências por disciplina.
 
-- `saida/ct05/indicadores.json`
-- `saida/ct05/historico_entregas.csv`
+## Aviso
 
-Valores não calculados devem ser exibidos como `null`, e não como zero.
+Este projeto utiliza dados sintéticos. Nenhum módulo determina automaticamente se um alimento é seguro para consumo. Toda triagem exige validação humana.
