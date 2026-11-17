@@ -14,8 +14,8 @@
   .\iniciar_demo.ps1 -SemVcia
 #>
 param(
-    [string]$PastaAipa = (Join-Path (Split-Path $PSScriptRoot -Parent) "GS_2TIAPR_2026_FOMEZERO_AIPA"),
-    [string]$PastaVcia = (Join-Path (Split-Path $PSScriptRoot -Parent) "GS_2TIAPR_2026_FOMEZERO_VISAO_COMPUTACIONAL"),
+    [string]$PastaAipa = (Join-Path (Split-Path $PSScriptRoot -Parent) "aipa/codigo"),
+    [string]$PastaVcia = (Join-Path (Split-Path $PSScriptRoot -Parent) "vcia/codigo"),
     [string]$PythonAipa = "",
     [string]$PythonVcia = "",
     [switch]$SemVcia,
