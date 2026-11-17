@@ -1,5 +1,7 @@
 # Quadro de temas: robô pós-entrega do FOMEZERO (AIPA)
 
+> Nesta entrega o código está em `codigo/` e as evidências resumidas em `EVIDENCIAS_DE_VALIDACAO.md`. Os caminhos da coluna "Evidência" são do repositório de desenvolvimento da AIPA, que guarda as evidências completas: https://github.com/meloleonardo-dev/GS_2TIAPR_2026_FOMEZERO_AIPA
+
 Temas tirados do material de aula do professor (`04_REFERENCIAS/aulas_AIPA/`, fora desta pasta de entrega). "p. N" é a página do PDF (o número impresso no slide é N − 1). São **8 temas, todos com função real** no fluxo (o mínimo é 3). Os IDs T1 a T12 e G0 a G7 são as tarefas e os gateways do BPMN, que aparecem no código e em cada linha do log.
 
 | # | Tema | Aula de origem (arquivo, página) | Onde entra no fluxo (tarefa BPMN · módulo) | O que resolve | Justificativa da escolha | Evidência |
