@@ -20,7 +20,7 @@ PASTA_GENAI = Path(os.environ.get("GENAI_PASTA", Path(__file__).resolve().parent
 # A variável de ambiente GENAI_PASTA_PLN troca o caminho, se a pasta estiver em outro lugar.
 PASTA_PLN = Path(os.environ.get(
     "GENAI_PASTA_PLN",
-    "/content/drive/MyDrive/GS_FOMEZERO/PLN" if EM_COLAB else PASTA_GENAI.parent / "PLN"))
+    "/content/drive/MyDrive/GS_FOMEZERO/PLN" if EM_COLAB else PASTA_GENAI.parent / "pln"))
 PASTA_CORPUS_PLN = PASTA_PLN / "corpus"
 ARQ_MAPA_TRECHOS = PASTA_PLN / "saidas" / "mapa_trechos.jsonl"        # página por trecho (aprovado na DEC-015)
 ARQ_QA_CANDIDATOS = PASTA_PLN / "revisao" / "qa_candidatos.jsonl"     # indice_linha do trecho-ouro (T8)
