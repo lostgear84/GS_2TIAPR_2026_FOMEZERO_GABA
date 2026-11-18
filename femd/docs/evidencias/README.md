@@ -3,6 +3,8 @@
 Capturas fornecidas por Erick Miguel durante a validação em 13/11/2026.
 Os dados apresentados nas telas são demonstrativos.
 
+*O projeto sofreu várias atualizações e por isso as imagens podem diferir do modelo atual assim como novas funcionalidades que foram desenvolvidas e validadas.
+
 ## Índice
 
 | Arquivo | Conteúdo |
