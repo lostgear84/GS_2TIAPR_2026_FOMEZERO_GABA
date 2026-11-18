@@ -71,14 +71,14 @@ Registrar capturas de tela sem dados pessoais reais para:
 - Não há validação sanitária de alimentos.
 - Nenhum módulo declara que um alimento é seguro para consumo.
 
-## Pendências de integração
+## Desafios e Pendências de integração
 
 Situação em 16/11/2026:
 
-- AIPA: integrada por serviço local (confirmação da entrega, revisão humana, pontos, selo, CO₂ evitado e Termo de Doação). Pendente: aprovação do grupo para as regras de pontos, selo e fator de CO₂.
-- GENAI: assistente integrado (modo simulado com respostas gravadas; modo integrado pelo link temporário do Colab).
+- AIPA: integrada por serviço local (confirmação da entrega, revisão humana, pontos, selo, CO₂ evitado e Termo de Doação).
+- GENAI: assistente integrado (modo simulado com respostas gravadas; modo integrado pelo link temporário do Colab) integrado com sucesso!
 - IoT: importação histórica implementada; conexão ao vivo não implementada.
-- VCIA: triagem por foto integrada com o app local da VCIA; sem hospedagem pública.
+- VCIA: triagem por foto integrada com o app local da VCIA; sem hospedagem pública concluído com sucesso!
 
 ## Capturas anexadas ao repositório
 
