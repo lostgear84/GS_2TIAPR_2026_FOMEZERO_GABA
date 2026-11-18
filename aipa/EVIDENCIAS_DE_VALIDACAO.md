@@ -51,7 +51,7 @@ Os textos com ocorrência que a v2 previu como `sem_ocorrencia` tiveram confian�
 
 **Limites:** n = 60 é pequeno, e os textos são sintéticos e não passaram por revisão humana. Com linguagem real, o robô funciona mais como triagem do que como automação completa.
 
-**Testes automáticos:** `python -m pytest testes -v`, com 68 testes aprovados em 17/11/2026, cobrindo extração, regras, cálculos, adaptadores, idempotência, contrato JSON, Selenium, Termo e certificado em PDF.
+**Testes automáticos:** `python -m pytest testes -v`, com 71 testes aprovados em 17/11/2026, cobrindo extração, regras, cálculos, adaptadores, idempotência, contrato JSON, Selenium, Termo e certificado em PDF. A contagem inclui nove módulos de teste recuperados em 17/11/2026; evidências da execução estão em `codigo/evidencias/metricas_ia_2026-11-17.md`.
 
 ## 3. Caso de falha tratado: portal fora do ar (F6)
 Comando: `python executar_robo.py --cenario portal_fora`. O robô terminou com código de saída 0.
