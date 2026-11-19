@@ -8,7 +8,10 @@ A GABA consolida a integração das disciplinas, documenta riscos, privacidade, 
 
 - `documento/`: documento ABNT/FIAP da disciplina.
 - `dashboard/`: dashboard de governança e impacto.
-- `evidencias/`: evidências da integração e dos indicadores.
+
+## Link da Apresentação
+
+https://www.youtube.com/watch?v=2O9By9voZGg
 
 ## Limitações
 
